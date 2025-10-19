@@ -73,30 +73,43 @@ cin >> ay;
 switch(ay){
     case 1:
         cout << "Qis";
+        break;
     case 2:
         cout << "Qis";
+        break;
     case 3:
         cout << "Qis";
+        break;
     case 4:
         cout << "Yaz";
+        break;
     case 5:
         cout << "Yaz";
+        break;
     case 6:
         cout << "Yaz";
+        break;
     case 7:
         cout << "Yay";
+        break;
     case 8:
         cout << "Yay";
+        break;
     case 9:
         cout << "Yay";
+        break;
     case 10:
         cout << "Payiz";
+        break;
     case 11:
         cout << "Payiz";
+        break;
     case 12:
         cout << "Payiz";
+        break;
     default:
         cout << "ERROR";
+        break;
 }
 
 // 7
@@ -113,14 +126,19 @@ cin >> operation_number;
 switch(operation_number){
     case 1:
         cout << Number_1 + Number_2;
+        break;
     case 2:
         cout << Number_1 - Number_2;
+        break;
     case 3:
         cout << Number_1 * Number_2;
+        break;
     case 4:
         cout << Number_1 / Number_2;
+        break;
     default:
         cout << "ERROR";
+        break;
 }
 
 // 8
@@ -132,5 +150,6 @@ if((il % 4 == 0 & il % 100 != 0) || il % 400 == 0){
 }else{
     cout << "artiq il deyil";
 }
+
 
 }
